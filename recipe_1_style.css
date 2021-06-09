@@ -1,0 +1,58 @@
+body {
+  background-image: url(canofspamimage.jpg);
+}
+
+div.grid1 {
+  display: grid;
+border: 5px solid rgb(30, 30, 128);
+border-radius: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+max-width: 300px;
+min-width: 100px;
+  background-color: rgb(233, 202, 116);
+}
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(30, 30, 128)
+}
+
+div.grid2 {
+  display: grid;
+border: 5px solid rgb(233, 202, 116);
+border-radius: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+max-width: 300px;
+min-width: 100px;
+  background-color: rgb(30, 30, 128);
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(233, 202, 116)
+}
+
+ul{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(233, 202, 116)
+}
+
+
+div.grid3 {
+  display: grid;
+border: 5px solid rgb(233, 202, 116);
+border-radius: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+max-width: 300px;
+min-width: 100px;
+  background-color: rgb(30, 30, 128);
+}
