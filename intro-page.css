@@ -1,0 +1,17 @@
+.container{
+    max-width: 900px;
+    margin: 100 100 100 100;
+    padding: 10 10 10 10;
+    display: grid;
+    grid-template-rows: 30px 1fr 1fr;
+}
+.title{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.author{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid blue;
+    background-color: aqua;
+}
