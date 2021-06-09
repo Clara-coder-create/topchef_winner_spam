@@ -20,6 +20,11 @@ h1{
   color:rgb(30, 30, 128)
 }
 
+h3.heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(30, 30, 128)
+}
+
 div.grid2 {
   display: grid;
 border: 5px solid rgb(233, 202, 116);
@@ -33,7 +38,9 @@ min-width: 100px;
   background-color: rgb(30, 30, 128);
 }
 
-h2{
+
+
+h2.body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(233, 202, 116)
 }
