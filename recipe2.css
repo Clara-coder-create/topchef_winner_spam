@@ -1,6 +1,7 @@
 body{
     z-index: 1;
     background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .dropdown{
@@ -9,7 +10,7 @@ body{
     width: 100%;
     top: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu{
@@ -20,10 +21,6 @@ body{
     box-sizing: border-box;
     display: block;
     text-align: center;
-}
-
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .lists {
@@ -97,20 +94,21 @@ body{
     }
 }
 
-.img1{
-    display: block;
-    width: 45%;
-    max-height: 600px;
-    margin: 100px auto 0 auto;
-}
-
 .centered{
     text-align: center;
+    margin-top: 100px;
+}
+
+.img1{
+    display: block;
+    width: 50%;
+    max-height: 600px;
+    margin: 30px auto 0 auto;
 }
 
 .main{
-    max-width: 1020px;
-    margin: 0 auto 0 auto;
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     font-size: 20px;
@@ -119,10 +117,13 @@ body{
 .p1{
     display: inline-block;
     background-color: ghostwhite;
-    /*padding: 20px;*/
+    padding: 20px;
     border: 1px solid lightgray;
     margin: 10px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px grey;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /*.p2{
@@ -134,23 +135,24 @@ body{
 
 }*/
 
-.p5{
-    position:absolute;
-    z-index: 2;
-}
-
 .l1{
     margin-bottom: 20px;
 }
 
 .icon{
+    position: relative;
+    border: 1px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 4px;
 }
 
 .video-container{
+    margin: 30px;
     display: flex;
     justify-content: center;
 }
@@ -159,3 +161,30 @@ body{
     text-align: center;
 }
 
+.p1:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 teal;
+    background: teal;
+}
+
+.p1:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 500px teal;
+}
+
+.p1:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 cornflowerblue;
+    background: cornflowerblue;
+}
+
+.p1:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 500px cornflowerblue;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.p1:hover .content{
+    color: white;
+}
