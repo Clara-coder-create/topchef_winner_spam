@@ -8,6 +8,7 @@ body{
     border: 1px solid black;
     max-width: 800px;
     margin: 0 auto;
+    box-shadow: -20px 0px 10px 1px;
 }
 .title{
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -42,7 +43,7 @@ img:hover{
     font-family: 'Kaushan Script', cursive;
 }
 .links{
-    font-size: 15px;
+    font-size: 30px;
     text-align: right;
 }
 .second{
