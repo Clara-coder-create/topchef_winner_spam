@@ -99,7 +99,7 @@ body{
 
 .img1{
     display: block;
-    width: 70%;
+    width: 45%;
     max-height: 600px;
     margin: 100px auto 0 auto;
 }
@@ -119,21 +119,43 @@ body{
 .p1{
     display: inline-block;
     background-color: ghostwhite;
-    padding: 20px;
+    /*padding: 20px;*/
     border: 1px solid lightgray;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
 }
 
-.p2{
+/*.p2{
     background: ghostwhite;
     padding: 20px;
     border: 1px solid lightgray;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
 
+}*/
+
+.p5{
+    position:absolute;
+    z-index: 2;
 }
 
 .l1{
     margin-bottom: 20px;
 }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+}
+
+.lastline{
+    text-align: center;
+}
+
