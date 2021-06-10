@@ -97,10 +97,6 @@ body{
     }
 }
 
-.container{
-    position: relative;
-}
-
 .img1{
     display: block;
     width: 70%;
@@ -116,7 +112,7 @@ body{
     max-width: 1020px;
     margin: 0 auto 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     font-size: 20px;
 }
 
