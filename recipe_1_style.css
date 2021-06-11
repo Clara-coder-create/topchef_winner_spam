@@ -12,6 +12,9 @@ body {
   z-index: 2;
  }
 
+a:hover{
+ font-weight: bold;
+}
 
  .menubar{
    color:rgb(233, 202, 116);
@@ -65,7 +68,7 @@ margin-right: 70px;
 
 .centered{
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color:rgb(30, 30, 128)
 }
 
@@ -76,13 +79,13 @@ margin-right: 70px;
 }
 
 ul.method_list{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color: rgb(233, 202, 116);
   margin-right: 50px;
 }
 
 ul.ingredients_list{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color: rgb(233, 202, 116)
   }
 
@@ -103,14 +106,14 @@ margin-left: 70px;
 
 
 h2.ingredients{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color: rgb(233, 202, 116);
   margin-left: 40px;
 }
 
 
 h2.method{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color: rgb(233, 202, 116);
   margin-left: 80px;
 }
@@ -131,7 +134,7 @@ margin-right: 70px;
 
 
 a{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lora', serif;
   color: rgb(233, 202, 116)
 }
 
